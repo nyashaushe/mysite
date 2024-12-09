@@ -1,114 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Creative Developer Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Developer | Pianist & Bookkeeping Expert</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script defer src="app.js"></script>
 </head>
 <body>
-  <header class="header">
-    <div class="container">
-      <h1>Creative Developer</h1>
-      <p>Pianist & Bookkeping Expert</p>
-      <p>Bringing together technology, creativity, and precision to deliver exceptional results.</p>
-    </div>
-  </header>
-
-  <main>
-    <!-- Software Development Services -->
-    <section class="services">
-      <div class="container">
-        <h2>Software Development Services</h2>
-        <div class="cards">
-          <div class="card">
-            <h3>Frontend Development</h3>
-            <p>Building engaging and interactive user interfaces.</p>
-          </div>
-          <div class="card">
-            <h3>Backend Development</h3>
-            <p>Creating robust and scalable server-side solutions.</p>
-          </div>
-          <div class="card">
-            <h3>Mobile Development</h3>
-            <p>Developing mobile apps for seamless user experience.</p>
-          </div>
-          <div class="card">
-            <h3>Full Stack Solutions</h3>
-            <p>Integrating frontend and backend for end-to-end development.</p>
-          </div>
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Portfolio</a>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#music" class="nav-link">Music</a></li>
+                    <li><a href="#bookkeeping" class="nav-link">Bookkeeping</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-      </div>
-    </section>
+    </header>
 
-    <!-- Musical Journey -->
-    <section class="music">
-      <div class="container">
-        <h2>Musical Journey</h2>
-        <div class="content">
-          <img src="music-image-placeholder.jpg" alt="Musical Instruments">
-          <div>
-            <p><strong>Composition:</strong> Creating original music across multiple genres.</p>
-            <p><strong>Performance:</strong> Providing live and studio recordings.</p>
-            <p><strong>Production:</strong> Recording, producing, and mixing music.</p>
-            <p><strong>Collaboration:</strong> Working with artists and musicians.</p>
-          </div>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">
+                    Creative <span class="hero-gradient-text">Developer</span>
+                </h1>
+                <h2 class="hero-subtitle">Pianist & Bookkeeping Expert</h2>
+                <p class="hero-description">
+                    Bringing together technology, creativity, and precision to deliver exceptional results.
+                </p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Software Development Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Frontend Development</h3>
+                        <p>Building engaging and interactive user interfaces.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend Development</h3>
+                        <p>Creating robust and scalable server-side solutions.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile Development</h3>
+                        <p>Developing mobile apps for seamless user experience.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-layer-group"></i>
+                        <h3>Full Stack Solutions</h3>
+                        <p>Integrating frontend and backend for end-to-end development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="music" class="music">
+            <div class="container">
+                <h2 class="section-title">Musical Journey</h2>
+                <div class="music-content">
+                    <div class="music-image">
+                        <img src="music-image.jpg" alt="Music Studio" class="studio-image">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="music-services">
+                        <div class="music-service">
+                            <i class="fas fa-music"></i>
+                            <div>
+                                <h3>Composition</h3>
+                                <p>Creating original music across multiple genres.</p>
+                            </div>
+                        </div>
+                        <div class="music-service">
+                            <i class="fas fa-guitar"></i>
+                            <div>
+                                <h3>Performance</h3>
+                                <p>Providing live and studio recordings.</p>
+                            </div>
+                        </div>
+                        <div class="music-service">
+                            <i class="fas fa-microphone"></i>
+                            <div>
+                                <h3>Production</h3>
+                                <p>Recording, producing, and mixing music.</p>
+                            </div>
+                        </div>
+                        <div class="music-service">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h3>Collaboration</h3>
+                                <p>Working with artists and musicians.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="bookkeeping" class="bookkeeping">
+            <div class="container">
+                <h2 class="section-title">Bookkeeping Services</h2>
+                <div class="bookkeeping-grid">
+                    <div class="bookkeeping-card">
+                        <i class="fas fa-file-invoice"></i>
+                        <div>
+                            <h3>Financial Records</h3>
+                            <p>Managing organized financial records for businesses.</p>
+                        </div>
+                    </div>
+                    <div class="bookkeeping-card">
+                        <i class="fas fa-chart-pie"></i>
+                        <div>
+                            <h3>Financial Analysis</h3>
+                            <p>Providing in-depth financial analysis and reports.</p>
+                        </div>
+                    </div>
+                    <div class="bookkeeping-card">
+                        <i class="fas fa-calculator"></i>
+                        <div>
+                            <h3>Budget Planning</h3>
+                            <p>Creating and maintaining budgets for financial goals.</p>
+                        </div>
+                    </div>
+                    <div class="bookkeeping-card">
+                        <i class="fas fa-file-alt"></i>
+                        <div>
+                            <h3>Tax Preparation</h3>
+                            <p>Preparing and managing taxes for businesses.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Contact Details</h3>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>email@example.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>(123) 456-7890</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>City, Country</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 All rights reserved.</p>
         </div>
-      </div>
-    </section>
-
-    <!-- Bookkeeping Services -->
-    <section class="bookkeeping">
-      <div class="container">
-        <h2>Bookkeeping Services</h2>
-        <div class="cards">
-          <div class="card">
-            <h3>Financial Records</h3>
-            <p>Managing organized financial records for businesses.</p>
-          </div>
-          <div class="card">
-            <h3>Financial Analysis</h3>
-            <p>Providing in-depth financial analysis and reports.</p>
-          </div>
-          <div class="card">
-            <h3>Budget Planning</h3>
-            <p>Creating and maintaining budgets for financial goals.</p>
-          </div>
-          <div class="card">
-            <h3>Tax Preparation</h3>
-            <p>Preparing and managing taxes for businesses.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact">
-      <div class="container">
-        <h2>Get in Touch</h2>
-        <form id="contact-form">
-          <div>
-            <label for="name">Name</label>
-            <input type="text" id="name" required>
-          </div>
-          <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" required>
-          </div>
-          <div>
-            <label for="message">Message</label>
-            <textarea id="message" required></textarea>
-          </div>
-          <button type="submit">Send Message</button>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <p>&copy; 2024 All rights reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
+    </footer>
 </body>
 </html>
