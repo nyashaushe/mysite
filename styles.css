@@ -183,6 +183,29 @@ body {
     font-size: 2rem;
 }
 
+/* Coming Soon Overlay */
+.coming-soon-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Show overlay on hover */
+.service-card:hover .coming-soon-overlay {
+    opacity: 1;
+}
+
 /* Contact Section */
 .contact {
     background-color: var(--color-gray-50);
