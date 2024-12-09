@@ -238,27 +238,3 @@ body {
 }
 
 
-/* General styling for the links */
-.social-link {
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-/* Style for the icons */
-.social-link i {
-    font-size: 30px;
-    color: #fff;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-    border-radius: 50%; /* Optional for a rounded effect */
-}
-
-/* Glow effect */
-.social-link i:hover {
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 
-                0 0 25px rgba(255, 255, 255, 0.6), 
-                0 0 35px rgba(255, 255, 255, 0.5);
-    color: #00ffea; /* Change this for unique glow colors */
-}
-
-
