@@ -23,13 +23,13 @@ html {
     font-size: 16px;
 }
 
-/*body {
+body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     line-height: 1.6;
     color: var(--color-gray-700);
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-}*/
+}
 
 .container {
     width: 100%;
@@ -261,13 +261,4 @@ html {
     color: #00ffea; /* Change this for unique glow colors */
 }
 
-/* Body background for better contrast (optional) */
-body {
-    background-color: #000; /* Dark background for glowing effect */
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
 
