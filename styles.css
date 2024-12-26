@@ -143,10 +143,10 @@ body {
     transition: color var(--transition-speed);
 }
 
-.social-link:hover {
+/* .social-link:hover {
     color: var(--color-primary);
 }
-
+ */
 /* Sections: Services, Music, Bookkeeping */
 .services, .music, .bookkeeping {
     padding: 4rem 1rem;
