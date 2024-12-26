@@ -131,7 +131,7 @@ body {
     font-size: clamp(1rem, 2vw, 1.25rem);
 }
 
-.social-links a {
+.social-links {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
@@ -141,12 +141,12 @@ body {
     color: var(--color-gray-600);
     font-size: 1.5rem;
     transition: color var(--transition-speed);
+    text-decoration: none; /* Ensure links are clickable */
 }
 
-/* .social-link:hover {
-    color: var(--color-primary);
+.social-link a:hover {
+    color: var(--color-primary); /* Apply hover effect */
 }
- */
 /* Sections: Services, Music, Bookkeeping */
 .services, .music, .bookkeeping {
     padding: 4rem 1rem;
