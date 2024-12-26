@@ -131,13 +131,13 @@ body {
     font-size: clamp(1rem, 2vw, 1.25rem);
 }
 
-.social-links {
+.social-links a {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
 }
 
-.social-link {
+.social-link a {
     color: var(--color-gray-600);
     font-size: 1.5rem;
     transition: color var(--transition-speed);
